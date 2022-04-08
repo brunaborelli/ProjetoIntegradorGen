@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#DAAB03</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="facebook">#3A5ACB</color>
+    <color name="twitter">#5895ED</color>
+    <color name="gmail">#E65353</color>
+    <color name="entrar">#3CB1D0</color>
+    <color name="entrar2">#6DCFD0</color>
+
+    <color name="colorFormulario">#F8F8F8</color>
+
+
+    
+</resources>

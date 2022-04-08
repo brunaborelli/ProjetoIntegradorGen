@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textNomeUsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            tools:text="Nome de Usuário" />
+
+        <TextView
+            android:id="@+id/tituloCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Título" />
+
+        <TextView
+            android:id="@+id/textPostagemTexto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            tools:text="Postagem" />
+
+        <ImageView
+            android:id="@+id/imagePostagem"
+            android:layout_width="match_parent"
+            android:layout_height="318dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="doge"
+            android:scaleType="center"
+            app:srcCompat="@drawable/careapp2" />
+
+        <TextView
+            android:id="@+id/textCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            tools:text="Categoria" />
+
+        <TextView
+            android:id="@+id/textDataEHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            tools:text="Data e Hora" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/buttonEdit"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginBottom="15dp"
+                android:contentDescription="@string/CareApp"
+                android:minHeight="48dp"
+                app:srcCompat="@drawable/ic_baseline_edit_note_24" />
+
+            <ImageButton
+                android:id="@+id/buttonDelete"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:contentDescription="@string/CareApp"
+                android:minHeight="48dp"
+                app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

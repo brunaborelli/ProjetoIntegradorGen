@@ -1,0 +1,8 @@
+<resources>
+    <string name="CareApp">CareApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Adicionar postagem</string>
+    <string name="crie_uma_action">Crie uma ação</string>
+    <string name="link_da_imagem">Link da Imagem</string>
+    <string name="postar">Postar</string>
+</resources>
